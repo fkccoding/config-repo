@@ -8,9 +8,12 @@ spring:
           uri: https://github.com/fkccoding/config-repo
           username: fkccoding
           password: 1996228fkcgi
+#          basedir: D:\config-repo
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8762/eureka/
+
+#  调用这个配置时，url的写法和文件名相关，和这里的配置无关
 env:
   pro
